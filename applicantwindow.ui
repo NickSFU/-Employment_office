@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ApplicantWindow</class>
+ <widget class="QDialog" name="ApplicantWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Бюро трудоустройства</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>700</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Список вакансий</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>80</y>
+       <width>1170</width>
+       <height>500</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Компания</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Вид деятельности</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Должность</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Зарплата</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Период</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Требования</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Дополнительная информация</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>511</x>
+       <y>610</y>
+       <width>175</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Откликнуться</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>20</y>
+       <width>1170</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>Виды деятельности</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Мои отклики</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>30</y>
+       <width>1170</width>
+       <height>550</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Компания</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Вид деятельности</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Должность</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Зарплата</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Период</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Требования</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Дополнительная информация</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>511</x>
+       <y>610</y>
+       <width>175</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Удалить отклик</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Список сделок</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>30</y>
+       <width>1170</width>
+       <height>550</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Компания</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Должность</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Зарплата</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Период</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
