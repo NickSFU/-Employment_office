@@ -16,15 +16,15 @@ public:
     ~ApplicantWindow();
 
 private slots:
-    void on_ActivityTypeBox_textActivated(const QString &arg1);
+    //void on_ActivityTypeBox_textActivated(const QString &arg1);
 
-    void loadVacancies();
-    void loadResponses();
-    void loadContracts();
-    void on_RespondButton_clicked();
-    void on_tableWidget_clicked(const QModelIndex &index);
-    void on_tableWidget_2_clicked(const QModelIndex &index);
-    void on_DeleteResponse_clicked();
+    //void loadVacancies();
+    //void loadResponses();
+   // void loadContracts();
+    //void on_RespondButton_clicked();
+    //void on_tableWidget_clicked(const QModelIndex &index);
+   // void on_tableWidget_2_clicked(const QModelIndex &index);
+    //void on_DeleteResponse_clicked();
 
 private:
     Ui::ApplicantWindow *ui;

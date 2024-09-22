@@ -13,7 +13,7 @@ ApplicantWindow::~ApplicantWindow()
     delete ui;
 }
 
-void ApplicantWindow::on_ActivityTypeBox_textActivated(const QString &arg1)
+/*void ApplicantWindow::on_ActivityTypeBox_textActivated(const QString &arg1)
 {
 
 }
@@ -42,3 +42,4 @@ void ApplicantWindow::on_DeleteResponse_clicked()
 
 }
 
+*/

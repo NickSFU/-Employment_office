@@ -21,8 +21,8 @@ public:
 private slots:
     void on_CreateVacancyButton_clicked();
     void loadVacancies();
-    void loadResponses();
-    void loadContracts();
+    //void loadResponses();
+    //void loadContracts();
     void on_DeleteVacancyButton_clicked();
 
     void on_vacancyTableWidget_clicked(const QModelIndex &index);
