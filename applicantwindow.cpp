@@ -12,3 +12,33 @@ ApplicantWindow::~ApplicantWindow()
 {
     delete ui;
 }
+
+void ApplicantWindow::on_ActivityTypeBox_textActivated(const QString &arg1)
+{
+
+}
+
+
+void ApplicantWindow::on_RespondButton_clicked()
+{
+
+}
+
+
+void ApplicantWindow::on_tableWidget_clicked(const QModelIndex &index)
+{
+
+}
+
+
+void ApplicantWindow::on_tableWidget_2_clicked(const QModelIndex &index)
+{
+
+}
+
+
+void ApplicantWindow::on_DeleteResponse_clicked()
+{
+
+}
+

@@ -108,7 +108,7 @@
       </property>
      </column>
     </widget>
-    <widget class="QPushButton" name="pushButton_2">
+    <widget class="QPushButton" name="RespondButton">
      <property name="geometry">
       <rect>
        <x>511</x>
@@ -121,7 +121,7 @@
       <string>Откликнуться</string>
      </property>
     </widget>
-    <widget class="QComboBox" name="comboBox">
+    <widget class="QComboBox" name="ActivityTypeBox">
      <property name="geometry">
       <rect>
        <x>12</x>
@@ -189,7 +189,7 @@
       </property>
      </column>
     </widget>
-    <widget class="QPushButton" name="pushButton_3">
+    <widget class="QPushButton" name="DeleteResponse">
      <property name="geometry">
       <rect>
        <x>511</x>

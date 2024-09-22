@@ -21,10 +21,17 @@ public:
 private slots:
     void on_CreateVacancyButton_clicked();
     void loadVacancies();
-
+    void loadResponses();
+    void loadContracts();
     void on_DeleteVacancyButton_clicked();
 
     void on_vacancyTableWidget_clicked(const QModelIndex &index);
+
+    void on_ConcludeContractButton_clicked();
+
+    void on_RefuseApplicantButton_clicked();
+
+    void on_tableWidget_2_clicked(const QModelIndex &index);
 
 private:
     Ui::EmployerWindow *ui;

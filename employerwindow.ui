@@ -52,7 +52,7 @@
     </font>
    </property>
    <property name="currentIndex">
-    <number>1</number>
+    <number>0</number>
    </property>
    <widget class="QWidget" name="tab">
     <attribute name="title">
@@ -358,10 +358,10 @@
       </property>
      </column>
     </widget>
-    <widget class="QPushButton" name="pushButton_2">
+    <widget class="QPushButton" name="ConcludeContractButton">
      <property name="geometry">
       <rect>
-       <x>511</x>
+       <x>425</x>
        <y>610</y>
        <width>175</width>
        <height>35</height>
@@ -369,6 +369,19 @@
      </property>
      <property name="text">
       <string>Заключить договор</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="RefuseApplicantButton">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>610</y>
+       <width>175</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Отказать соискателю</string>
      </property>
     </widget>
    </widget>

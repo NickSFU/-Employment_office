@@ -95,3 +95,21 @@ void EmployerWindow::on_vacancyTableWidget_clicked(const QModelIndex &index)
     row = index.row();
 }
 
+
+void EmployerWindow::on_ConcludeContractButton_clicked()
+{
+
+}
+
+
+void EmployerWindow::on_RefuseApplicantButton_clicked()
+{
+
+}
+
+
+void EmployerWindow::on_tableWidget_2_clicked(const QModelIndex &index)
+{
+
+}
+

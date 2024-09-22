@@ -17,6 +17,20 @@ struct Vacansies // Структура для хранения вакансий
     QString requirements;
     QString additionalData;
 };
+struct Responses
+{
+    int ID;
+    int ID_Vacancy;
+    int ID_Applicant;
+};
+
+struct Contracts
+{
+    int ID;
+    int ID_Response;
+    QString Commision;
+};
+
 class DatabaseHandler : public QObject
 {
     Q_OBJECT
@@ -37,7 +51,15 @@ public:
     bool addApplicantToDatabase(const QString &login,const QString &password,const QString &surname,const QString &name,const QString &patronymic,const QString &occupation,const QString &qualification,const QString &additionalData);
     bool addEmployerToDatabase(const QString &login, const QString &password, const QString &name, const QString &activityType, const QString &adress, const QString &phone);
     bool addVacanciesToDatabase(const int &userId, const QString &title, const QString &string, const QString &period, const QString &requirements, const QString &additionalData);
+    bool addResponsesToDatabase(const int &ID_Vacancy, const int &ID_Applicant);
+    bool addContractsToDatabase(const int &ID_Response);
+    bool deleteUser(const int &ID);
+    bool deleteVacancy(const int &ID);
+    bool deleteResponse(const int &ID);
     QVector<Vacansies> getVacanciesByEmployerID(int employerID);
+    QVector<Responses> getResponsesByVacancyID(int vacancyID);
+    QVector<Responses> getResponsesByApplicantID(int applicantID);
+    QVector<Contracts> getContractsByResponseID(int responseID);
 private:
     QSqlDatabase db;
 
